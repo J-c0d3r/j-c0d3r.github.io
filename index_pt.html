@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Juan's Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <!-- <link rel="shortcut icon" href="favicon.ico">  --> 
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    
+    <header class="header" id="teste">                
+        <div class="container" >   
+            
+                <div class="d-flex bd-highlight" >
+                    
+                    <div class="p-2 flex-grow-1 bd-highlight" >         
+                        <!-- <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" /> -->
+                        <div class="profile-content" >
+                            <h1 class="name">Juan Carlos</h1>
+                            <h2 class="desc">Programador/Desenvolvedor de Jogos</h2>  
+                            <div class="row">
+                                <ul class="col social list-inline" >                            
+                                    <div class="col">
+                                        <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/juanferrugini/"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://github.com/J-c0d3r"><i class="fab fa-github-alt"></i></a></li>    
+                                        <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>    -->
+                                        <!-- <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>      -->           
+                                    </div>
+                                </ul>
+                                
+                            </div>   
+                            
+                        </div><!--//profile-->
+                    </div><!--//col-->
+
+                    
+                    <!-- <div class="p-2 align-self-center" > -->
+                    <div class="d-flex flex-column">
+                        
+                        <div class="row d-flex mt-5 pt-4 align-self-center">
+                            <div class="col-md-auto">
+                                <h5><a href="#about_anchor">Sobre</a></h5>
+                            </div>
+                            <div class="col-md-auto">
+                                <h5><a href="#bestP_anchor">Melhores Projetos</a></h5>
+                            </div>
+                            <div class="col-md-auto">
+                                <h5><a href="#othersP_anchor">Outros Projetos</a></h5>
+                            </div>
+
+                            <div class="col form-check form-switch mx-auto mx-md-0"> 
+                                <input type="checkbox" class="form-check-input me-2" id="darkSwitch" />                            
+                                <label class="custom-control-label" for="darkSwitch">Modo Escuro</label>                            
+                            </div>
+                        </div> 
+
+                        <div class="d-flex justify-content-end align-self-end mt-auto">
+                            <span class="p-1"><a href="./index_pt.html"><strong>PT</strong></a></span>
+                            <span class="p-1"><a href="./index_en.html"><strong>EN</strong></a></span>
+                        </div>
+                    </div>                                
+                    
+                </div><!--//row-->         
+        </div><!--//container-->        
+        
+    </header>
+
+    
+    <header class="header2 hide" id="navbar">
+        <nav class="navbar navbar-expand fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- <div class="d-flex bd-highlight ">
+                        
+                        <h4 class="p-1 flex-grow-1 bd-highlight name">Juan Carlos</h4>
+                        <ul class="p-1 bd-highlight align-self-center align-self-center social list-inline ">                            
+                            <div class="col">                            
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/juanferrugini/"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="list-inline-item"><a href="https://github.com/J-c0d3r"><i class="fab fa-github-alt"></i></a></li>                                
+                            </div>
+                        </ul> 
+                    </div> -->
+                    <h4 class="p-1 flex-grow-1 bd-highlight name">Juan Carlos</h4>
+                    <h5 class="desc">Programador/Desenvolvedor de Jogos</h5>
+                    
+                </div>  
+                <ul class="navbar-nav">                    
+                    <h5><li class="nav-item" style="margin-right: 20px;"><a href="#about_anchor">Sobre</a></li></h5>
+                    <h5><li class="nav-item" style="margin-right: 20px;"><a href="#bestP_anchor">Melhores Projetos</a></li></h5>
+                    <h5><li class="nav-item" style="margin-right: 20px;"><a href="#othersP_anchor">Outros Projetos</a></li></h5>
+
+                    <!-- <div class="col form-check form-switch mx-auto mx-md-0"> 
+                        <input type="checkbox" class="form-check-input me-2" id="darkSwitch" />                            
+                        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>                            
+                    </div> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <div id="about_anchor"></div>
+                <section class="about section" id="about">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Sobre</h2>
+                        <div class="content">
+                            <p>&#127891;Graduado em Engenharia de Software pelo Inatel e Técnico em Informática. </p>
+                            <p>&#127918;Venho estudando como desenvolver jogos desde o início de 2023. </p>
+                            <p>&#128295;Gosto de resolver alguns problemas que me sinto desafiado e outros que me sinto confortável. </p>
+                            <p>&#128161;Às vezes gosto de conversar e interagir mas às vezes prefiro trabalhar em silêncio, mantendo-me concentrado. </p>
+                            <p>&#127970;Como início de carreira, gostaria de trabalhar com uma equipe de desenvolvimento em um projeto para conhecer e entender melhor o dinamismo da execução de um projeto comercial.</p>
+                            <p>&#128172;Estou disposto a me comunicar com falantes da língua inglesa.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                    
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Experiência Profissional</h2>
+                        <div class="content">
+                           <!--  <div class="item">
+                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2023 - Present)</span></h3>
+                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2020 - 2023)</span></h3>
+                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+                            </div> -->
+                            
+                            <div class="item">
+                                <h3 class="title">Estagiário em Desenvolvimento de Jogos - <span class="place"><a href="https://inatel.br/home/">Inatel</a></span> <span class="year">(Out 2023 ‑ Nov 2023)</span></h3>
+                                <p>Tive como objetivo elaborar, desenvolver e codificar um jogo cujo foco fosse divulgar o Inatel. <br>
+                                    Para isso, optei por desenvolver um jogo no estilo mini-games para que novos pequenos jogos pudessem ser introduzidos por futuros desenvolvedores, o que tornou o projeto contínuo.<br>
+                                    Concentrei minhas energias na ideia e na codificação e, portanto, utilizei recursos visuais e sonoros livres de direitos autorais.
+                                </p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <div id="bestP_anchor"></div>
+               <section class="latest section" id="best_projects">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Melhores Projetos <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title="Projetos que mais me dediquei"><i class="fas fa-info-circle"></i></span></h2> </h2>
+                        <div class="content">    
+                                           
+                            <!-- ------------------ -->
+                            <div class="row align-items-left">
+                                <div class="item row">                                                                                                               
+                                        
+                                    <section class="p-6 text-center w-100">
+                                        <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/4defenses.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>                                       
+                                    </section>
+                                             
+                                    <!-- FIRST PROJECT -->
+                                    <div class="desc col-12">
+                                        <br>
+                                        <h2>1. 4Defenses</h2>
+                                        <p class="mb-2">
+                                            É um jogo de tower defense e seu objetivo é proteger a base dos inimigos e manter-se vivo. <br>
+                                            Este projeto foi o projeto que mais investi em horas e energia para construí-lo. Elaborei as ideias e mecânicas que queria
+                                             para colocar em prática tudo o que aprendi até então.<br>
+                                            Peguei as sprites e os assets de áudio para manter meu foco na programação e implementação de cada mecânica.<br>
+                                            Curiosidade: Levei mais de 150 horas para concluir esse projeto sozinho.
+                                        </p>
+                                        <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                            Aplicações matemáticas.<br>
+                                            Não gaste várias horas desenvolvendo o mesmo recurso. Pare, desenvolva outro e depois volte para tentar novamente.<br>
+                                            Escalabilidade(boas práticas para manter o código do projeto estruturado).<br>
+                                            Balanceamento do Jogo.
+                                        </p>
+                                        <p class="mb-2">Desenvolvido: Unity2D</p>
+                                        <section>
+                                            <p><h4>Funcionalidades em Destaque</h4></p>
+                                            <div class="accordion" id="accordionExample" style="margin-left: 15px;">
+
+
+                                                <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        Dano por Segundo (DOT)
+                                                    </button>
+                                                    </h5>
+                                                </div>                                            
+                                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <p style="padding: 8px;">
+                                                            O lança-chamas inicia um estado de queima por segundo nos inimigos.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                
+                                                <div class="card">
+                                                    <div class="card-header" id="headingThree">
+                                                        <h5 class="mb-0">
+                                                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            Munição do Lança-Chamas
+                                                        </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p style="padding: 8px;">                                                                
+                                                                Para fazer o efeito de lança-chamas utilizando duas sprites de fogo, tive que implementar cálculos trigonométricos para que cada
+                                                                sprite gerado fosse movido para a direção que o mouse está apontando.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>     
+
+                                                <div class="card">
+                                                    <div class="card-header" id="headingTwo">
+                                                        <h5 class="mb-0">
+                                                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                            Sistema de Rodadas
+                                                        </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p style="padding: 8px;">
+                                                                Todo o jogo foi feito em torno de um sistema de ondas que gera alguns inimigos a cada rodada.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                                                                
+
+                                            </div>
+                                        </section>
+
+                                        <br>
+                                        <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/4defenses" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>                 
+                                    </div><!--//desc-->   
+
+                                </div><!--//item-->
+                                
+
+                                <hr class="divider" />
+
+                                <!-- SECOND PROJECT -->
+                                <div class="item col">
+
+                                    <section class="p-6 text-center w-100">
+                                        <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/student.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                    </section>
+
+                                    <div class="desc col-12">
+                                        <br>
+                                        <h2>2. Jornada do Estudante</h2>
+                                        <p class="mb-2">                                            
+                                            Este projeto foi feito durante meu estágio na minha faculdade. O objetivo era divulgar o Inatel através de um jogo publicitário.<br>
+                                            O objetivo é coletar todos os documentos essenciais e pelo menos um documento dourado para ganhar uma porcentagem de bolsa ao completar o jogo.
+                                        </p>
+                                        <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>                                            
+                                            Um pequeno sistema de conquistas<br>
+                                            Gerenciamento de tempo e tarefas<br>
+                                            A experiência sobre a dificuldade de planejar um bom design de jogo visando um jogo publicitário.
+                                        </p>
+                                        <p class="mb-2">Desenvolvido: Unity2D</p>
+                                        <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/students-jorney" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>                 
+                                    </div><!--//desc-->   
+
+                                </div><!--//item-->    
+
+                            </div>    
+                            <!-- ------------------ -->
+
+                            <hr class="divider" />
+
+                            <!-- ------------------ -->
+                            <div class="row align-items-center">
+                                <div class="item row">
+                                    
+                                    <section class="p-6 text-center w-100">
+                                        <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/lightK.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                    </section>
+
+                                    <!-- THIRD PROJECT -->
+                                    <div class="desc col-12">
+                                        <br>
+                                        <!-- <h3 class="title">3. Light Knight</h3> -->
+                                        <h2>3. Light Knight</h2>
+                                        <p class="mb-2">                                            
+                                            Fiz esse jogo com meu amigo durante uma game jam promovida pelo FarmandoXP que é um canal do Youtube.<br>
+                                            Meu amigo manteve seu foco no game design e eu mantive minhas energias na programação das mecânicas.<br>
+                                            O tema era “Luz” e tivemos apenas 72 horas para desenvolver.
+                                        </p>
+                                        <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>                                            
+                                            Efeitos de luz e luminosidade<br>
+                                            Sistema de diálogo<br>
+                                            Gerenciamento de tempo e tarefas<br>
+                                        </p>
+                                        <p class="mb-2">Desenvolvido: Unity2D</p>
+                                        <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/light-knight" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>                 
+                                    </div><!--//desc-->                          
+                                </div><!--//item-->
+                                
+
+                                <hr class="divider" />
+
+
+                                <div class="item row">
+                                    
+                                    <section class="p-6 text-center w-100">
+                                        <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/jetfire.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                    </section>
+
+                                    <!-- FOURTH PROJECT -->
+                                    <div class="desc col-12">
+                                        <br>
+                                        <!-- <h3 class="title">4. Jet Fire</h3> -->
+                                        <h2>4. Jet Fire</h2>
+                                        <p class="mb-2">
+                                            <!-- (Este é um jogo no estilo infinity runner). -->
+                                            É um jogo estilo infinity runner.<br>
+                                            No começo fiz junto com o professor durante o curso, e depois resolvi criar um jogo completo para praticar.<br>
+                                            Curiosidade: levei mais de 50 horas para desenvolver sozinho.
+                                        </p>
+                                        <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                            Movimento do Power Up<br>
+                                            Gerador de cenários e limpeza de cenários antigos<br>
+                                            Balanceamento do Jogo
+                                        </p>
+                                        <p class="mb-2">Desenvolvido: Unity2D</p>
+                                        <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/jetfire" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>                 
+                                    </div><!--//desc-->                          
+                                </div><!--//item-->                            
+                            </div>     
+                            <!-- ------------------ -->
+
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <div id="othersP_anchor"></div>
+                <section class="projects section" id="others_projects">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Outros Projetos</h2>
+                        <div class="content">
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/photon.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">CombatX1MP_Photon</h3>
+                                    <p class="mb-2">Apliquei um pouco do conhecimento que adquiri durante meus estudos no Photon Engine para criar um jogo multiplayer.                                    </p>
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                        Multiplayer - Photon Engine
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity2D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/combatx1mp-photon" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>                                           
+                                </div>
+                            </div>
+                            
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/space.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">Space Shooter</h3>
+                                    <p class="mb-2">Meu primeiro projeto 2D completo que fiz com o professor durante seu curso.</p>
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                        Funcionamento de mecânicas(Gerais)<br>
+                                        Geração e limpeza de inimigos para liberar memória<br>
+                                        Balanceamento do Jogo
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity2D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/space-shooter" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/plane.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">Plane</h3>
+                                    <p class="mb-2">Conheci os fundamentos de como funciona a geração procedural 2D.</p>
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                        Funcionamento de mecânicas(2D Infinity Runner)<br>
+                                        Os princípios básicos da geração procedural<br>
+                                        Implementação da dificuldade crescente
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity2D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/plane" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/fps.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">FPSShoter</h3>
+                                    <p class="mb-2">Primeiro contato em fazer um FPS Shooter.</p>
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                        Cenário 3D<br>
+                                        Sistema de Recarga de Arma<br>
+                                        Um pouco de ajustes na câmera
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity3D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/c-fps" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+
+                                    <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/boy.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">Boy’s Adventure</h3>                                    
+                                    <p class="mb-2">Este foi meu primeiro contato com a Unity2D durante a realização do curso de Unity 
+                                        onde a primeira fase fiz junto com o professor, porém a segunda fiz sozinho
+                                        para colocar em prática o que aprendi.
+                                    </p>
+                                    <!-- <p class="mb-2">                                
+                                        Foi meu primeiro contato com Unity2D durante a realização do curso de Unity no qual o primeiro nível
+                                        Fiz junto com a professora, mas o segundo nível fiz sozinho para colocar em prática o que aprendi.
+                                    </p> -->
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                        Funcionamento da mecânica(Plataforma 2D)<br>
+                                        Cenário 2D<br>
+                                        Inimigo seguindo jogador
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity2D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/boys-adventure" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/rpg.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">RPG</h3>                                                                        
+                                    <p class="mb-2">
+                                        Esta foi a minha primeira experiência em construir um cenário 3D e saber como faz um sistema de inventário.
+                                    </p>
+                                    <!-- <p class="mb-2">
+                                        It was my first experience in building a 3D scenario and knowing how to make an inventory system.
+                                    </p> -->
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>
+                                        Sistema de Inventário<br>
+                                        Cenário 3D
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity3D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/c-rpg" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/pongo.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">Pong</h3>                                    
+                                    <p class="mb-2">Foi meu primeiro contato com o aprendizado de como funciona uma pequena IA.</p>
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>                                        
+                                        Funcionamento de mecânicas(Jogar contra CPU)<br>
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Unity2D</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/sc-pong" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <section class="p-6 col text-left w-100">
+                                    <a href="https://gamedevcode.itch.io/4defenses" target="_blank"><video src="./assets/videos/mickeyP.mp4" type="video/mp4" loop class="hover-to-play w-100"></video></a>
+                                </section>
+                                <div class="desc col">
+                                    <h3 class="title">Mickey’s Coins</h3>
+                                    <p class="mb-2">Meu primeiro jogo criado em Construct3 e foi meu primeiro contato no mundo de desenvolvimento de jogos.</p>
+                                    <p class="mb-2"><strong>Conhecimento adquirido:</strong><br>                                        
+                                        Funcionamento básico da mecânica de um jogo (Geral).
+                                    </p>
+                                    <p class="mb-2">Desenvolvido: Construct3</p>
+                                    <a class="btn btn-cta-secondary" href="https://gamedevcode.itch.io/mickeys-coins" target="_blank"><i class="fas fa-thumbs-up"></i> Play</a>       
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                
+                
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">                        
+                        <h2 class="heading sr-only">Informações Básicas</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Brasil</li>
+                                <!-- <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li> -->
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>juanferrugini@ges.inatel.br</a></li>
+                                <!-- <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li> -->
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Habilidades <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title="
+                            Tutorial: Primeiro contato.
+                            Newbie: Já fiz alguma coisa. <br> 
+                            Survivor: Sinto-me capaz de desenvolver um projeto. <br>
+                            Player: <br>
+                            Pro Player: <br>
+                            Expert: <br>
+                            "><i class="fas fa-info-circle"></i></span></h2>                                                
+                        <div class="content">
+                            <!-- <p class="intro">Teste</p> -->
+                            
+                            <!-- Tutorial 0 - 19
+                            Newbie 19 - 38
+                            Survivor 38 - 57
+                            Player 57 - 76
+                            Pro Player 76 - 95
+                            Expert 95 - 95 -->
+
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Unity<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="top" title="I'm feel able to delevop a project.">Survivor</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 38%" aria-valuenow="38"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">C#<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="top" title="I'm feel able to delevop a project.">Survivor</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 38%" aria-valuenow="38"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Unreal<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="top" title="It's my first contact.">Tutorial</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 4%" aria-valuenow="4"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">C++<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="top" title="I've already made something.">Newbie</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 25%" aria-valuenow="25"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">VR<span class="level-label" data-bs-toggle="tooltip" data-placement="top" title="It's my first contact.">Tutorial</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 0%" aria-valuenow="0"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Photon<span class="level-label" data-bs-toggle="tooltip" data-placement="top" title="It's my first contact.">Tutorial</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 8%" aria-valuenow="8"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">NetCode For GameObjects<span class="level-label" data-bs-toggle="tooltip" data-placement="top" title="It's my first contact.">Tutorial</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 5%" aria-valuenow="5"  aria-valuemin="0" aria-valuemax="95"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Steam<span class="level-label" data-bs-toggle="tooltip" data-placement="top" title="It's my first contact.">Tutorial</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 0%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Android/IOS<span class="level-label" data-bs-toggle="tooltip" data-placement="top" title="It's my first contact.">Tutorial</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 0%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->                                
+                                
+                                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p>  -->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+               
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Educação</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Bacharel em Engenharia de Software</h3>
+                                <h4 class="university">Inatel ‑ Instituto Nacional de Telecomunicações <span class="year">(2018-2023)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Técnico de Informática</h3>
+                                <h4 class="university">ETPC ‑ Escola Técnica Pandiá Calógeras <span class="year">(2014-2016)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Idiomas</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Inglês:</strong></span>
+                                    <span class="level">Intermediário <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Português:</strong></span>
+                                    <span class="level">Nativo <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script>                                            
+        const clip = document.querySelectorAll(".hover-to-play");
+        for (let i = 0; i < clip.length; i++) {
+        clip[i].addEventListener("mouseenter", function (e) {
+            clip[i].play();
+        });
+        clip[i].addEventListener("mouseout", function (e) {
+            clip[i].pause();
+        });
+        }      
+    </script>
+    <script id="rendered-js">
+        myID = document.getElementById("navbar");
+        teste = document.getElementById("teste");
+        var myScrollFunc = function () {
+            var y = window.scrollY;
+            if (y >= 200) {
+                myID.className = "header2 show"; 
+                console.log(teste);               
+            } else {
+                myID.className = "header2 hide";                
+            }
+        };
+        window.addEventListener("scroll", myScrollFunc);
+    </script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
